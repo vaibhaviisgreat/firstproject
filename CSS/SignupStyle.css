@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.name{
+    
+    font-size: 35px;
+    color: bisque;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+}
+
+.nav-list{
+    
+    width: 75%;
+    display: flex;
+    
+
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 32px 50px;
+    font-size: 20px;
+    
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+
+body{
+    background: rgba(0, 0, 0, 0.7) url('/wallpaper.png');
+    background-repeat: repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+
+.page{
+    position: absolute;
+    left: 500px;
+    top: 140px;
+    border-style:double;
+    border-color: beige;
+    height: 450px;
+    width: 430px;
+}
+.table{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+
+   
+}
+
+
+.txtbx{
+font-family:'Times New Roman', Times, serif;
+color:rgb(236, 225, 198);
+font: size 24px;
+line-height: 30px;
+border-radius: 5px;
+display: flex;
+
+}
+
+
+.lbl
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(186, 227, 161);
+    font-size: 30px;
+    font-weight: 30px;
+    padding: 4.8%;
+    /* margin-right: 1rem; */
+    
+}
+
+input{
+    margin-left:  2rem;
+   
+}
+
+#btn{
+    width: 150px;
+    height: 40px;
+    background-color: green;
+    color:white;
+    font-size:20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 2.2px solid white;
+    
+
+}
+
+
+
+.rbchk{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(247, 225, 240);
+    font-size: 15px;
+    font-weight: 27px;
+}

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Orelega+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.7) url('/tra.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+
+p{
+    font-family: 'Orelega One', cursive;
+    font-size: 70px;
+    text-align: center;
+    color:blanchedalmond;
+
+}
+
+.firstSection{
+    height: 100vh ;
+}
+
+.secondSection{
+    height: 100vh;
+}
+
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: palegreen;
+    font-family: serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+ 
+.secondhalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+   
+
+.firstHalf img{
+    width: 98%;
+    border: 4px solid white;
+    border-radius: 120px;
+    display: block;
+    margin: auto;
+    
+
+
+}
+
+.text-big{
+      font-size: 40px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-small{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn{
+    padding: 9px 21px;
+    margin: 7px 2px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.thirdhalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+   
+
+.fourthHalf img{
+    width: 74%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+
+
+}
+
+.text-big{
+      font-size: 40px;
+}
+
+.text-small{
+    font-size: 20px;
+}
+
+.btn{
+    padding: 9px 21px;
+    margin: 7px 2px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+
+}

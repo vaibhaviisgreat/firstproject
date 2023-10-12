@@ -1,0 +1,16 @@
+*{
+    margin: 10;
+    padding: 10;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.7) url('/pp.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+
+body{
+    color: antiquewhite;
+}
